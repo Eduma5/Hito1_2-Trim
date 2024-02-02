@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Hito1</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="autor" content="Eduardo">
+<link rel="stylesheet" type="text/css" href="estilo.css"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body class="pindex">
+
+<!-- boostrap -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Xml
+              </a>            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="historia1.html">Historia</a></li>
+                <li><a class="dropdown-item" href="normas1.html">Normas de uso y sintaxis</a></li>
+                <li><a class="dropdown-item" href="aplicaciones1.html">Aplicaciones en el ámbito empresarial</a></li>
+                <li><hr class="dropdown-divider"></li>
+
+              </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="json.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                JSON
+              </a>            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="historia2.html">Historia</a></li>
+                <li><a class="dropdown-item" href="normas2.html">Normas de uso y sintaxis</a></li>
+                <li><a class="dropdown-item" href="aplicaciones2.html">Aplicaciones en el ámbito empresarial</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="contacta.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contacto
+              </a>            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="contacta.html">Contacto</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <div id="mensaje-agradecimiento" style="display: none;">
+                Gracias por contactarme. Me pondré en contacto contigo lo más brevemente posible.
+              </div>
+            <form id="miFormulario" action="#" method="post">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre/Empresa:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" pattern="[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ\s]{3,}" required>
+                </div>
+                <div class="mb-3">
+                    <label for="sector" class="form-label">Sector/Profesión:</label>
+                    <input type="text" class="form-control" id="sector" name="sector" pattern="[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ\s]{3,}" required>
+                </div>
+                <div class="mb-3">
+                    <label for="pais" class="form-label">País:</label>
+                    <select class="form-select" id="pais" name="pais" required>
+                        <option value="España">España</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Inglaterra">Inglaterra</option>
+                        <option value="Alemania">Alemania</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Teléfono:</label>
+                    <input type="tel" class="form-control" id="telefono" name="telefono" pattern="[0-9]{8,12}" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" minlength="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+        <div class="col-lg-4">
+            <!-- Columna lateral -->
+            <div class="sidebar">
+              <h2>Categorías</h2>
+              <ul>
+                  <li><a href="historia1.html">Categoria 1</a></li>
+                  <li><a href="historia2.html">Categoria 2</a></li>
+                  <!-- Agrega más categorías según sea necesario -->
+              </ul>
+              <h2>Últimos Posts</h2>
+              <ul>
+                  <li><a href="https://aws.amazon.com/es/what-is/xml/#:~:text=El%20lenguaje%20de%20marcado%20extensible,datos%20y%20aplicaciones%20de%20terceros.">Último Post 1</a></li>
+                  <li><a href="https://blog.hubspot.es/website/que-es-json#:~:text=JSON%20es%20un%20formato%20de,una%20alternativa%20al%20lenguaje%20XML.">Último Post 2</a></li>
+                  <!-- Agrega más posts según sea necesario -->
+              </ul>
+              <h2>Síguenos en Redes Sociales</h2>
+              <ul>
+                <li><a href="https://www.facebook.com/eduardo.munozaldanas.1" class="aa" style="--color: #0303b5"><i class="uil uil-facebook"></i></a></li>
+                <li><a href="https://twitter.com/home" class="aa" style="--color: #0072b1"><i class="uil uil-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/edumuunozz/?next=%2F" class="aa" style="--color: #e81cff"><i class="uil uil-instagram"></i></a></li>
+                  <!-- Agrega más redes sociales según sea necesario -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+ 

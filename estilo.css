@@ -1,0 +1,223 @@
+.pindex {background-color: rgba(0, 0, 0, 0.501);}
+
+ul,ol¨{
+    list-style:none;
+    padding-left: 450px;
+}
+.nav li{
+    float: left;
+    width: 250px;
+}
+.nav li a{
+    background-color: #00000067;
+    color: white;
+    text-decoration: none;
+    padding:10px 12px 10px 20px;
+    display:block;
+    font-family: impact;
+}
+.nav li a:hover {
+    background-color: #5b5d5f;
+}
+
+
+
+.img1 {
+    width: 550px;
+    height: 350px;
+    padding-left: 550px;
+}
+.camis {
+    text-align: center;
+
+}
+.p11 { background-color: rgb(155, 96, 69);}
+
+.h1index {
+    text-align: center;
+}
+.ropita {
+    width: 750px;
+    height: 350px;
+   
+    border-radius: 100px ;
+}
+.boton{
+    margin-left: 870PX;
+    margin-top: -200px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: white;
+}
+.txt1 {
+    text-align: center;
+}
+.img4{
+    width: 400px;
+    height: 500px;
+    margin-left: 150px;
+}
+.img5{
+    width: 400px;
+    height: 500px;
+    margin-left: 150px;
+}
+.img6{
+    width: 400px;
+    height: 500px;
+    margin-left: 150px;
+}
+.palm{
+    text-align: center;
+}
+.cnp{
+    padding-left: 250px;
+}
+.cbo{
+    padding-left: 270px;
+}
+.cno{
+    padding-left: 280px;
+}
+
+
+
+
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #333;
+    padding: 10px;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    color: #fff;
+    text-decoration: none;}
+
+.titulo1 {
+    text-align: center;
+
+}
+.ropita1 {
+    border-radius: 100px;
+    padding-left: 570px;
+}
+.intro {
+    text-align: center;
+}
+.video{
+    width: 2000px;
+    height: 800px;
+    
+}
+.container {
+    margin-left: -100px;
+}
+.ps {
+    text-align: center;
+}
+.img2 {
+    text-align: center;
+}
+
+.FOO{
+
+    background-color: rgba(178, 178, 178, 0.198);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    backdrop-filter: blur(25px);
+
+}
+
+.containeer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 490px;
+}
+
+.aa{
+
+    margin: 0 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    background: rgba(0,0,0,0);
+    color: var(--color);
+    font-size: 2.5em;
+
+}
+
+.aa:hover{
+
+    background: var(--color);
+    color: #050801;
+    box-shadow: 0 0 5px var(--color),
+    0 0 25px var(--color)
+    0 0 50px var(--color)
+    0 0 200px var(--color);
+
+}
+.br2 {
+    border-radius: 10px;
+}
